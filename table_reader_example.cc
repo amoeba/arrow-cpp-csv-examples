@@ -9,7 +9,7 @@
 
 int main()
 {
-    std::__fs::filesystem::path filePath = "./data/mtcars.csv";
+    std::__fs::filesystem::path filePath = "./data/mydata.csv";
 
     arrow::io::IOContext io_context = arrow::io::default_io_context();
     arrow::MemoryPool *pool = arrow::default_memory_pool();
